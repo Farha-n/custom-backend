@@ -1,0 +1,63 @@
+/* src/components/Cart.css */
+
+.container {
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 15px 0;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s ease;
+}
+
+.item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.removeButton {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.removeButton:hover {
+    background-color: #e63939;
+}
+
+.cartActions {
+    margin-top: 20px;
+}
+
+.clearButton,
+.checkoutButton {
+    background-color: #4caf50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin: 0 10px; /* Space between buttons */
+    transition: background-color 0.3s ease;
+}
+
+.clearButton:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+.checkoutButton {
+    background-color: #2196F3; /* Blue background */
+}
+
+.checkoutButton:hover {
+    background-color: #1976D2; /* Darker blue */
+}

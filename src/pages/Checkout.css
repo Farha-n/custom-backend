@@ -1,0 +1,375 @@
+body {
+    font-family: 'Arial', sans-serif; /* Font family for overall consistency */
+    background-color: #f4f4f4; /* Light background for the whole page */
+}
+
+.checkout-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto; /* Centered with margin on top/bottom */
+    background-color: #ffffff; /* White background for the checkout card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}.checkoutContainer {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .cartSummary {
+    margin-bottom: 1.5rem;
+  }
+  
+  .cartItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .couponSection {
+    margin: 1rem 0;
+  }
+  
+  .couponInput {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .applyButton {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .totalAmount {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .orderButton {
+    padding: 0.5rem 1rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .thankYouMessage {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #28a745;
+  }
+  
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem; /* Space below the title */
+    color: #333; /* Dark color for contrast */
+    font-size: 2rem; /* Larger font size */
+}
+
+h3 {
+    margin-top: 1.5rem;
+    color: #007bff; /* Bootstrap primary color */
+    border-bottom: 2px solid #007bff; /* Underline for emphasis */
+    padding-bottom: 0.5rem; /* Space below the header */
+}
+
+.order-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1rem; /* Space below the order list */
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd; /* Light border between items */
+    padding: 1rem 0; /* Padding for items */
+}
+
+.item-image {
+    width: 80px; /* Set width for consistency */
+    height: auto;
+    border-radius: 5px;
+    margin-right: 1rem; /* Space between image and text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for images */
+}
+
+.item-details {
+    flex-grow: 1; /* Allow item details to take available space */
+    text-align: left; /* Left align text */
+}
+
+.item-name {
+    margin: 0;
+    font-size: 1.2rem; /* Slightly larger name font */
+    color: #333; /* Dark color for item name */
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem; /* Space above input group */
+}
+
+.input-group input {
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s ease; /* Transition for focus */
+}
+
+.input-group input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.coupon-input {
+    margin: 1rem 0; /* Space above and below coupon input */
+}
+
+.apply-coupon-button, .submit-button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; /* Green for the apply button */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s; /* Add transform for a pop effect */
+}
+
+.apply-coupon-button:hover, .submit-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+h4 {
+    color: #333; /* Dark color for total amount */body {
+        font-family: 'Arial', sans-serif; /* Consistent font */
+        background-color: #f4f4f4; /* Light background for the entire page */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+    }
+    
+    .checkout-container {
+        padding: 2rem;
+        max-width: 800px;
+        margin: 2rem auto; /* Center the container */
+        background-color: #ffffff; /* White background for the checkout card */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+        transition: box-shadow 0.3s ease; /* Transition for hover effect */
+    }
+    
+    .checkout-container:hover {
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+    }
+    
+    .title {
+        font-size: 2rem; /* Title size */
+        margin-bottom: 1.5rem; /* Space below title */
+        color: #333; /* Dark title color */
+        text-align: center; /* Center title text */
+    }
+    
+    .cartSummary {
+        margin-bottom: 1.5rem; /* Space below cart summary */
+    }
+    
+    .cartItem {
+        display: flex;
+        justify-content: space-between; /* Space between item details */
+        padding: 1rem 0; /* Increased padding */
+        border-bottom: 1px solid #ddd; /* Light border */
+    }
+    
+    .couponSection {
+        margin: 1rem 0; /* Space around coupon section */
+    }
+    
+    .couponInput {
+        padding: 0.5rem; /* Padding for input */
+        margin-right: 0.5rem; /* Space to the right */
+        border-radius: 5px; /* Rounded corners */
+        border: 1px solid #ddd; /* Light border */
+        transition: border-color 0.3s ease; /* Transition for focus */
+    }
+    
+    .couponInput:focus {
+        border-color: #007bff; /* Highlight border on focus */
+    }
+    
+    .applyButton {
+        padding: 0.5rem 1rem; /* Padding for button */
+        background-color: #007bff; /* Bootstrap primary color */
+        color: #fff; /* White text */
+        border: none; /* Remove default border */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer; /* Pointer cursor */
+        transition: background-color 0.3s ease, transform 0.2s; /* Smooth transition */
+    }
+    
+    .applyButton:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+        transform: scale(1.05); /* Slightly enlarge on hover */
+    }
+    
+    .totalAmount {
+        font-size: 1.5rem; /* Increased font size for emphasis */
+        margin: 1rem 0; /* Space around total amount */
+        color: #333; /* Dark color for total amount */
+        text-align: center; /* Center align */
+    }
+    
+    .orderButton {
+        padding: 0.5rem 1rem; /* Padding for button */
+        background-color: #28a745; /* Green background */
+        color: #fff; /* White text */
+        border: none; /* No border */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer; /* Pointer cursor */
+        transition: background-color 0.3s ease, transform 0.2s; /* Transition for hover effect */
+    }
+    
+    .orderButton:hover {
+        background-color: #218838; /* Darker green on hover */
+        transform: scale(1.05); /* Slightly enlarge button on hover */
+    }
+    
+    .thankYouMessage {
+        margin-top: 1rem; /* Space above message */
+        font-size: 1.5rem; /* Larger font size */
+        color: #28a745; /* Green color */
+        text-align: center; /* Center align */
+    }
+    
+    h2 {
+        text-align: center; /* Center title */
+        margin-bottom: 1rem; /* Space below title */
+        color: #333; /* Dark color for contrast */
+        font-size: 2rem; /* Larger font size */
+    }
+    
+    h3 {
+        margin-top: 1.5rem; /* Space above h3 */
+        color: #007bff; /* Bootstrap primary color */
+        border-bottom: 2px solid #007bff; /* Underline for emphasis */
+        padding-bottom: 0.5rem; /* Space below header */
+        text-align: left; /* Left align text */
+    }
+    
+    .order-list {
+        list-style-type: none; /* Remove bullet points */
+        padding: 0; /* Remove padding */
+        margin-bottom: 1rem; /* Space below order list */
+    }
+    
+    .order-item {
+        display: flex; /* Flexbox layout for items */
+        align-items: center; /* Center items vertically */
+        border-bottom: 1px solid #ddd; /* Light border */
+        padding: 1rem 0; /* Padding for items */
+    }
+    
+    .item-image {
+        width: 80px; /* Set width for consistency */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 5px; /* Rounded corners */
+        margin-right: 1rem; /* Space between image and text */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    }
+    
+    .item-details {
+        flex-grow: 1; /* Allow item details to take available space */
+        text-align: left; /* Left align text */
+    }
+    
+    .item-name {
+        margin: 0; /* Remove default margin */
+        font-size: 1.2rem; /* Slightly larger font size */
+        color: #333; /* Dark color for item name */
+    }
+    
+    .input-group {
+        display: flex; /* Flex layout for input group */
+        flex-direction: column; /* Stack inputs vertically */
+        width: 100%; /* Full width */
+        margin-top: 1rem; /* Space above input group */
+    }
+    
+    .input-group input {
+        margin: 0.5rem 0; /* Space between inputs */
+        padding: 0.75rem; /* Padding for input */
+        border: 1px solid #ccc; /* Light border */
+        border-radius: 5px; /* Rounded corners */
+        transition: border-color 0.3s ease; /* Transition for focus */
+    }
+    
+    .input-group input:focus {
+        border-color: #007bff; /* Change border color on focus */
+        outline: none; /* Remove default outline */
+    }
+    
+    .coupon-input {
+        margin: 1rem 0; /* Space above and below coupon input */
+    }
+    
+    .apply-coupon-button,
+    .submit-button {
+        padding: 0.75rem; /* Padding for buttons */
+        border: none; /* Remove border */
+        border-radius: 5px; /* Rounded corners */
+        background-color: #28a745; /* Green background */
+        color: white; /* White text */
+        cursor: pointer; /* Pointer cursor */
+        transition: background-color 0.3s ease, transform 0.2s; /* Transition effects */
+    }
+    
+    .apply-coupon-button:hover,
+    .submit-button:hover {
+        background-color: #218838; /* Darker green on hover */
+        transform: scale(1.05); /* Slightly enlarge on hover */
+    }
+    
+    h4 {
+        color: #333; /* Dark color for total amount */
+        margin-top: 1rem; /* Space above total amount */
+    }
+    
+    .order-summary {
+        margin-top: 1rem; /* Space above summary section */
+        padding: 1rem; /* Padding for summary box */
+        border: 1px solid #ddd; /* Light border for summary box */
+        border-radius: 5px; /* Rounded corners */
+        background-color: #f9f9f9; /* Light gray background */
+    }
+    
+    margin-top: 1rem; /* Space above total amount */
+}
+
+.order-summary {
+    margin-top: 1rem; /* Space above summary section */
+    padding: 1rem;
+    border: 1px solid #ddd; /* Light border for summary box */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light gray background for summary */
+}
+h1{
+    text-align: center;
+}

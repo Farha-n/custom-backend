@@ -1,0 +1,20 @@
+[
+    {
+      "name": "John Doe",
+      "phone": "1234567890",
+      "address": "123 Main St",
+      "pincode": "12345",
+      "state": "Kashmir",
+      "district": "Anantnag",
+      "email": "john@example.com",
+      "items": [
+        {
+          "id": 1,
+          "name": "Elegant Gold Frame",
+          "language": "Arabic",
+          "frameSize": "Medium"
+        }
+      ]
+    }
+  ]
+  
